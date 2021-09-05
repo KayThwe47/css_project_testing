@@ -1,6 +1,6 @@
 #Responsive CSS Pj Testing
 
-I learned CSS from many CSS tutorial websites.
+Reference CSS tutorial websites.
 
 eg.(https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
 etc..,
