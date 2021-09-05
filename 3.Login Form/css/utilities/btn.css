@@ -1,0 +1,42 @@
+input,
+button {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+input {
+  width: 100%;
+  background: #d9ebf5;
+  color: #333;
+  letter-spacing: 0.5px;
+  padding: 14px 64px;
+}
+
+input ~ i {
+  position: absolute;
+  left: 32px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+input:focus ~ i {
+  color: #00b0ff;
+}
+
+button.submit {
+  color: #fff;
+  padding: 14px 64px;
+  width: 100%;
+  letter-spacing: 2px;
+  font-weight: bold;
+  background-color: #00b0ff;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button.submit:hover {
+  opacity: 0.9;
+}
