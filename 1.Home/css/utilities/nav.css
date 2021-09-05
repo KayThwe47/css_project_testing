@@ -1,0 +1,138 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding: 20px 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 6px 13px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  font-size: 30px;
+  color: #e84393;
+  font-weight: bolder;
+}
+
+header .navbar a {
+  font-size: 18px;
+  padding: 0 24px;
+  color: #666;
+}
+
+header .navbar a:hover {
+  color: #e84393;
+}
+
+header .icons a {
+  font-size: 24px;
+  color: #e84393;
+  margin-left: 20px;
+}
+
+header .icons a:hover {
+  color: #d194b2;
+}
+
+header #toggler {
+  display: none;
+}
+
+header .fa-bars {
+  font-size: 28px;
+  color: #333;
+  border-radius: 8px;
+  padding: 6px 14px;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+@media (max-width: 1060px) {
+  header {
+    padding: 10px 4%;
+  }
+
+  header .navbar a {
+    font-size: 20px;
+    padding: 0 10px;
+    color: #666;
+  }
+}
+
+@media (max-width: 768px) {
+  header .fa-bars {
+    display: block;
+  }
+
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 14px 28px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+  }
+
+  header .navbar a {
+    display: block;
+    margin: 28px 0;
+    font-size: 18px;
+  }
+  header input:checked ~ .navbar {
+    transform: scaleY(1);
+    opacity: 1;
+  }
+
+  header input:checked ~ label::before {
+    content: "\f00d";
+  }
+
+  .home .content h3 {
+    font-size: 30px;
+  }
+
+  .home .content p {
+    font-size: 13px;
+  }
+
+  .home .content span {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 20px 30px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+  .home .content h3 {
+    font-size: 25px;
+  }
+
+  .home .content p {
+    font-size: 10px;
+  }
+
+  .home .content span {
+    font-size: 16px;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+}
