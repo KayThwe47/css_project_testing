@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <input type="checkbox" name="" id="toggler" />
+      <label for="toggler" class="fas fa-bars"></label>
+      <a href="#" class="logo">Schools</a>
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">Course</a>
+        <a href="#">About</a>
+        <a href="#">Help</a>
+      </nav>
+      <div class="icons">
+        <a href="#">Login</a>
+        <a href="#" class="active">Sign up</a>
+      </div>
+      <div class="icon">
+        <a href="#" class="fas fa-sign-in-alt"></a>
+        <a href="#" class="fas fa-user-plus"></a>
+      </div>
+    </header>
+
+    <section class="left">
+      <img src="./images/banner.svg" alt="" />
+    </section>
+
+    <section class="right">
+      <div class="login-container">
+        <p class="title">Get Started</p>
+        <p class="paragraph">We are limited only by our imganization</p>
+        <form class="login-form">
+          <div class="form-control">
+            <input type="text" placeholder="FullName" />
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="form-control">
+            <input type="password" placeholder="E-mail" />
+            <i class="fas fa-lock"></i>
+          </div>
+          <div class="form-control">
+            <input type="password" placeholder="Password" />
+            <i class="fas fa-lock"></i>
+          </div>
+          <button class="submit">Create Account</button>
+          <p class="paragraph">
+            By Signing up , I agree to the privacy policy nad terms of service
+          </p>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
