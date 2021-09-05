@@ -1,4 +1,4 @@
-#[Responsive CSS Pj Testing]
+#Responsive CSS Pj Testing
 
 I learned CSS tutorial websites.
 
