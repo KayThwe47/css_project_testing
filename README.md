@@ -22,7 +22,7 @@ Responsive CSS Form Design
 
 ##4.Project_One
 
-Make Complete Webiste with HTML and CSS
+Make Complete Responsive Webiste with HTML and CSS
 
 ##5.Grid Test
 
